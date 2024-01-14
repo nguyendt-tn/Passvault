@@ -7,6 +7,11 @@ class HomeView extends GetView<HomeController> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Scaffold(
+        body: SafeArea(
+      child: InkWell(
+        child: Text("login"),
+      ),
+    ));
   }
 }
