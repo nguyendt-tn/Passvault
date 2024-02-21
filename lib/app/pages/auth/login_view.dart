@@ -11,7 +11,6 @@ class LoginView extends GetView<HomeController> {
     return Scaffold(
       body: Column(
         children: [
-          Image.network(""),
           Text("Login"),
           TextField(
             decoration: InputDecoration(hintText: "Email address"),
